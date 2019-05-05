@@ -30,9 +30,10 @@ public class ContactsPageTest extends TestBase {
 	}
 	
 	@Test
-	public void verifyContactsPageLabel() {
-		contactsPage.verifyContactsLabel();
-		Assert.assertTrue(contactsPage.verifyContactsLabel(), "label missing");
+	public void verifyContactsPageLabel1() {
+		
+	
+		
 
 	}
 	

@@ -35,13 +35,13 @@ public class TestBase {
 		
 		if(browserName.equalsIgnoreCase("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\saris\\eclipse-workspace\\FREECRMPOMTest\\drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\saris\\eclipse-workspace\\FREECRMPOMTest\\drivers1\\chromedriver.exe");
 			driver= new ChromeDriver();
 			
 		}
 		else if(browserName.equalsIgnoreCase("FF"))
 		{
-			System.setProperty("webdriver.gecko.driver", "C:\\Users\\saris\\eclipse-workspace\\FREECRMPOMTest\\drivers\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", "C:\\Users\\saris\\eclipse-workspace\\FREECRMPOMTest\\drivers1\\geckodriver.exe");
 			driver= new FirefoxDriver();
 			
 		}
